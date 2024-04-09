@@ -52,7 +52,7 @@
 .reset-button{
     height:fit-content;
     width: fit-content;
-    margin: 1em 0px 0px 0em;
+    margin: 1em 0px 0px 10px;
     border-radius: 15px;
     border-width: opx;
     color: aliceblue;
@@ -62,7 +62,7 @@
 .result-button{
     height:fit-content;
     width: fit-content;
-    margin: 1em 0px 0px 0em;
+    margin: 1em 0px 0px 10px;
     border-radius: 15px;
     border-width: opx;
     color: white;
