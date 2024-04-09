@@ -1,0 +1,71 @@
+.background{
+  
+    height: 100vh;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.heading{
+    font-size:8vh;
+    font-weight: bolder;
+}
+.inputitem{
+    height: 4rem;
+    width: 20rem;
+    border-radius: 15px;
+    text-align: right;
+    color: aliceblue;
+    border-width: 0px;
+    border-color: black;
+    font-size: 6vh;
+    font-weight: bolder;
+    padding-right: 2%;
+}
+.bottom-container{
+   height: 21rem;
+   width: 20rem;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 5vh;
+    
+}
+.button-number{
+    height:7%;
+    width: 16%;
+    color: black;
+    font-weight: bolder;
+    border-radius: 15px;
+    margin: 2em 0px 0px 10px;
+}
+.button-del{
+    height:fit-content;
+    width: fit-content;
+    color: white;
+    background-color: gray;
+    font-weight: bolder;
+    border-radius: 15px;
+    margin: 1em 0px 0px 10px;
+}
+.reset-button{
+    height:fit-content;
+    width: fit-content;
+    margin: 1em 0px 0px 0em;
+    border-radius: 15px;
+    border-width: opx;
+    color: aliceblue;
+    font-weight: bolder;
+    background-color:darkcyan;
+}
+.result-button{
+    height:fit-content;
+    width: fit-content;
+    margin: 1em 0px 0px 0em;
+    border-radius: 15px;
+    border-width: opx;
+    color: white;
+    font-weight: bolder;
+    background-color:red;
+}

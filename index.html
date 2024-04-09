@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="background">
+             <div>
+                <h1 class="text-dark text-center pt-3 heading">Calculator</h1>
+             </div>
+             <div>
+                <input type="text" class="bg-dark inputitem" placeholder="0" id="display" />
+             </div>
+             <div class="bottom-container bg-dark">
+                 <div class="first">
+                    <button class="button-number" onclick="inputvalue(7)">7</button>
+                    <button class="button-number" onclick="inputvalue(8)">8</button>
+                    <button class="button-number" onclick="inputvalue(9)">9</button>
+                    <button class="button-del" onclick="deletelastentered()">DEL</button>
+                 </div>
+                 <div class="second">
+                    <button class="button-number" onclick="inputvalue(4)">4</button>
+                    <button class="button-number" onclick="inputvalue(5)">5</button>
+                    <button class="button-number" onclick="inputvalue(6)">6</button>
+                    <button class="button-number" onclick="inputvalue('+')">+</button>
+                 </div>
+                 <div class="third">
+                    <button class="button-number" onclick="inputvalue(1)">1</button>
+                    <button class="button-number" onclick="inputvalue(2)">2</button>
+                    <button class="button-number" onclick="inputvalue(3)">3</button>
+                    <button class="button-number" onclick="inputvalue('-')">-</button>
+                 </div>
+                 <div class="fourth">
+                    <button class="button-number" onclick="inputvalue('.')">.</button>
+                    <button class="button-number" onclick="inputvalue(0)">0</button>
+                    <button class="button-number" onclick="inputvalue('/')">/</button>
+                    <button class="button-number" onclick="inputvalue('x')">x</button>
+                 </div>
+                 <div class="reset">
+                    <button class="reset-button" onclick="resetvalue(0)">RESET</button>
+                    <button class="result-button" onclick="result()">RESULT</button>
+                 </div>
+             </div>   
+ </div>
+ <script src="./script.js"></script>
+</body>
+</html>
