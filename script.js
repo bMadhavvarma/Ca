@@ -27,7 +27,8 @@ function resetvalue() {
 
 function result() {
     try {
-        var result = eval(display.value);
+        var expression = display.value.replace(/x/g, '*');
+        var result = eval(expression);
         display.value = result;
     } catch (error) {
         display.value = 'Error';
